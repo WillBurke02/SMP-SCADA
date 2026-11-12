@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/cmake_install.cmake",
+		"C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

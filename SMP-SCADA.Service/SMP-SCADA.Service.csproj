@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-SMP_SCADA.Service-b6aa7d13-af5d-4154-bf7e-35b2bfa9c317</UserSecretsId>
+    <RootNamespace>SMP_SCADA.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="11.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ecat_shim.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMP-SCADA.Core\SMP-SCADA.Core.csproj" />
+  </ItemGroup>
+</Project>

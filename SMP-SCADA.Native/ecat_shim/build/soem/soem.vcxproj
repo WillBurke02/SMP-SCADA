@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0420FE56-46F7-319E-A19D-95166CD29D26}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>soem</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">soem.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">soem</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">soem.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">soem</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">soem.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">soem</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">soem.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">soem</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\include;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\wpcap\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim -BC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build --check-stamp-file C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\cmake\Windows.cmake;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include\soem\ec_options.h.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\InstallRequiredSystemLibraries.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim -BC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build --check-stamp-file C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\cmake\Windows.cmake;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include\soem\ec_options.h.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\InstallRequiredSystemLibraries.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim -BC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build --check-stamp-file C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\cmake\Windows.cmake;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include\soem\ec_options.h.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\InstallRequiredSystemLibraries.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim -BC:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build --check-stamp-file C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\cmake\Windows.cmake;C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\include\soem\ec_options.h.in;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPack.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\InstallRequiredSystemLibraries.cmake;D:\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\soem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_base.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_coe.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_config.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_dc.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_eoe.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_foe.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_main.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_print.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\src\ec_soe.c" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32\osal.c" />
+    <ClInclude Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\osal\win32\osal_defs.h" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\oshw.c" />
+    <ClInclude Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\oshw.h" />
+    <ClCompile Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\nicdrv.c" />
+    <ClInclude Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\SOEM\oshw\win32\nicdrv.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\ZERO_CHECK.vcxproj">
+      <Project>{51ECD56B-31E1-35B0-9793-847A45EF7E18}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

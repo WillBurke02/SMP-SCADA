@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SMP-SCADA.App/SMP-SCADA.App.csproj" />
+  <Project Path="SMP-SCADA.Core.Tests/SMP-SCADA.Core.Tests.csproj" />
+  <Project Path="SMP-SCADA.Core/SMP-SCADA.Core.csproj" />
+  <Project Path="SMP-SCADA.Service/SMP-SCADA.Service.csproj" />
+</Solution>

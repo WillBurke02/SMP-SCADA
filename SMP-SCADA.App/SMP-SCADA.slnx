@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Native/">
+    <File Path="../SMP-SCADA.Native/ecat_shim/build/Release/ecat_shim.dll" />
+    <File Path="../SMP-SCADA.Native/ecat_shim/CMakeLists.txt.txt" />
+    <File Path="../SMP-SCADA.Native/ecat_shim/ecat_shim.c" />
+  </Folder>
+  <Project Path="../SMP-SCADA.Core.Tests/SMP-SCADA.Core.Tests.csproj" />
+  <Project Path="../SMP-SCADA.Core/SMP-SCADA.Core.csproj" />
+  <Project Path="../SMP-SCADA.Service/SMP-SCADA.Service.csproj" />
+  <Project Path="SMP-SCADA.App.csproj" />
+</Solution>

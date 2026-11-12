@@ -1,0 +1,3 @@
+﻿BL 4000-C EtherCAT manual|Manuals\EtherCAT and CANopen Manual, smartServo BL 4000-C.pdf
+Galil DMC-20x0 manual|Manuals\Galil_Motion_Control_DMC_2210_Manual_2019712135310.pdf
+Servo Commander|C:\Program Files (x86)\Metronix\ServoCommander 5.0.0.1.5\ServoCommander.exe

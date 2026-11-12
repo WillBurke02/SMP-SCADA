@@ -1,0 +1,9 @@
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/CMakeFiles/ecat_shim.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/CMakeFiles/PACKAGE.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/CMakeFiles/INSTALL.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/soem.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/PACKAGE.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/INSTALL.dir
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/ecat_shim/build/soem/CMakeFiles/ALL_BUILD.dir

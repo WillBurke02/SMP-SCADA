@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\w.burke\source\repos\SMP-SCADA.Native\ecat_shim\build\CMakeFiles\e5605ef84ce0ce04caf3257eb062ace4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4B23BAAA-F8F3-300F-84A7-BD5156A17B2D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

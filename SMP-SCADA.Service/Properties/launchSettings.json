@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Simulate": {
+      "commandName": "Project",
+      "commandLineArgs": "--simulate",
+      "environmentVariables": { "DOTNET_ENVIRONMENT": "Development" }
+    },
+    "Drive": {
+      "commandName": "Project",
+      "environmentVariables": { "DOTNET_ENVIRONMENT": "Development" }
+    }
+  }
+}

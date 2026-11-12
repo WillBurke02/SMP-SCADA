@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/CMakeLists.txt
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/cmake/Windows.cmake
+C:/Users/w.burke/source/repos/SMP-SCADA.Native/SOEM/include/soem/ec_options.h.in
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CPack.cmake
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CPackComponent.cmake
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/InstallRequiredSystemLibraries.cmake
+D:/Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
